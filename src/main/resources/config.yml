@@ -1,0 +1,33 @@
+# PurpleKush-Tabliste
+# Farben mit & (z. B. &5 = lila, &d = pink, &7 = grau, &f = weiß, &l = fett)
+#
+# Platzhalter:
+#   %spieler%  Name des Spielers
+#   %uhrzeit%  echte Uhrzeit
+#   %datum%    echtes Datum
+#   %online%   Spieler online
+#   %max%      maximale Spielerzahl
+#   %gesamt%   Spielzeit insgesamt
+#   %heute%    Spielzeit heute
+#   %ping%     Ping des Spielers in ms
+#   %tps%      Server-TPS (20.0 = perfekt)
+
+# Zeitzone für Uhrzeit, Datum und "heute"
+zeitzone: "Europe/Berlin"
+
+header:
+  - ""
+  - "&5&l%spieler%"
+  - "&7%datum% &8| &f%uhrzeit% Uhr"
+  - ""
+
+footer:
+  - ""
+  - "&dOnline: &f%online%&7/&f%max%"
+  - "&dGesamt gespielt: &f%gesamt%"
+  - "&dHeute gespielt: &f%heute%"
+  - "&7Ping: &f%ping% ms &8| &7TPS: &f%tps%"
+  - ""
+
+nachrichten:
+  reload: "&aKonfiguration neu geladen."

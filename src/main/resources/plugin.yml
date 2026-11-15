@@ -1,0 +1,17 @@
+name: PurpleKush-Tabliste
+version: ${project.version}
+main: de.purplekush.tabliste.TablistePlugin
+api-version: "1.21"
+description: Zeigt Name, Uhrzeit, Spieleranzahl und Spielzeit in der TAB-Liste an.
+author: PurpleKush
+
+commands:
+  tabliste:
+    description: Verwaltet das Tabliste-Plugin
+    usage: /tabliste reload
+    permission: purplekush.tabliste.admin
+
+permissions:
+  purplekush.tabliste.admin:
+    description: Darf das Plugin neu laden
+    default: op
